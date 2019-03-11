@@ -181,3 +181,273 @@
 [2019-03-11 06:59:25 +0000] [3330] [INFO] Booting worker with pid: 3330
 [2019-03-11 06:59:26 +0000] [3332] [INFO] Booting worker with pid: 3332
 [2019-03-11 06:59:26 +0000] [3308] [DEBUG] 3 workers
+[2019-03-11 07:15:36 +0000] [3547] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  disable_redirect_access_to_syslog: False
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7efc35d4f398>
+  errorlog: /home/mohitgupta/Tutorials/deployment_tutorial/log/gunicorn.log
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7efc35d4f1b8>
+  pre_fork: <function pre_fork at 0x7efc35d4f2a8>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  sendfile: None
+  reuse_port: False
+  worker_tmp_dir: None
+  group: 1019
+  umask: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  workers: 3
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  proc_name: None
+  pre_exec: <function pre_exec at 0x7efc35d4f758>
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7efc35d4fc80>
+  logconfig: None
+  logconfig_dict: {}
+  config: None
+  pidfile: None
+  check_config: False
+  statsd_prefix: 
+  on_reload: <function on_reload at 0x7efc35d4f0c8>
+  reload_extra_files: []
+  accesslog: None
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7efc35d4f848>
+  post_request: <function post_request at 0x7efc35d4f8c0>
+  user: 1018
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7efc35d4f578>
+  paste: None
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7efc35d3ff50>
+  post_worker_init: <function post_worker_init at 0x7efc35d4f488>
+  worker_abort: <function worker_abort at 0x7efc35d4f668>
+  child_exit: <function child_exit at 0x7efc35d4f9b0>
+  worker_exit: <function worker_exit at 0x7efc35d4faa0>
+  default_proc_name: deployment_tutorial.wsgi:application
+  loglevel: debug
+  syslog: False
+  syslog_prefix: None
+  chdir: /home/mohitgupta/Tutorials/deployment_tutorial
+  daemon: False
+  syslog_addr: udp://localhost:514
+  ciphers: TLSv1
+  bind: ['127.0.0.1:8000']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7efc35d4fb90>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2019-03-11 07:15:36 +0000] [3547] [INFO] Starting gunicorn 19.9.0
+[2019-03-11 07:15:36 +0000] [3547] [DEBUG] Arbiter booted
+[2019-03-11 07:15:36 +0000] [3547] [INFO] Listening at: http://127.0.0.1:8000 (3547)
+[2019-03-11 07:15:36 +0000] [3547] [INFO] Using worker: sync
+[2019-03-11 07:15:36 +0000] [3568] [INFO] Booting worker with pid: 3568
+[2019-03-11 07:15:36 +0000] [3570] [INFO] Booting worker with pid: 3570
+[2019-03-11 07:15:36 +0000] [3571] [INFO] Booting worker with pid: 3571
+[2019-03-11 07:15:37 +0000] [3547] [DEBUG] 3 workers
+[2019-03-11 07:23:35 +0000] [3659] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  disable_redirect_access_to_syslog: False
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7ff30449b398>
+  errorlog: /home/mohitgupta/Tutorials/deployment_tutorial/log/gunicorn.log
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7ff30449b1b8>
+  pre_fork: <function pre_fork at 0x7ff30449b2a8>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  sendfile: None
+  reuse_port: False
+  worker_tmp_dir: None
+  group: 1019
+  umask: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  workers: 3
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  proc_name: None
+  pre_exec: <function pre_exec at 0x7ff30449b758>
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7ff30449bc80>
+  logconfig: None
+  logconfig_dict: {}
+  config: None
+  pidfile: None
+  check_config: False
+  statsd_prefix: 
+  on_reload: <function on_reload at 0x7ff30449b0c8>
+  reload_extra_files: []
+  accesslog: None
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7ff30449b848>
+  post_request: <function post_request at 0x7ff30449b8c0>
+  user: 1018
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7ff30449b578>
+  paste: None
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7ff30448bf50>
+  post_worker_init: <function post_worker_init at 0x7ff30449b488>
+  worker_abort: <function worker_abort at 0x7ff30449b668>
+  child_exit: <function child_exit at 0x7ff30449b9b0>
+  worker_exit: <function worker_exit at 0x7ff30449baa0>
+  default_proc_name: deployment_tutorial.wsgi:application
+  loglevel: debug
+  syslog: False
+  syslog_prefix: None
+  chdir: /home/mohitgupta/Tutorials/deployment_tutorial
+  daemon: False
+  syslog_addr: udp://localhost:514
+  ciphers: TLSv1
+  bind: ['127.0.0.1:8000']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7ff30449bb90>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2019-03-11 07:23:35 +0000] [3659] [INFO] Starting gunicorn 19.9.0
+[2019-03-11 07:23:35 +0000] [3659] [DEBUG] Arbiter booted
+[2019-03-11 07:23:35 +0000] [3659] [INFO] Listening at: http://127.0.0.1:8000 (3659)
+[2019-03-11 07:23:35 +0000] [3659] [INFO] Using worker: sync
+[2019-03-11 07:23:35 +0000] [3679] [INFO] Booting worker with pid: 3679
+[2019-03-11 07:23:35 +0000] [3681] [INFO] Booting worker with pid: 3681
+[2019-03-11 07:23:35 +0000] [3683] [INFO] Booting worker with pid: 3683
+[2019-03-11 07:23:35 +0000] [3659] [DEBUG] 3 workers
+[2019-03-11 07:42:17 +0000] [3859] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  disable_redirect_access_to_syslog: False
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7efea9a08398>
+  errorlog: /home/mohitgupta/Tutorials/deployment_tutorial/log/gunicorn.log
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7efea9a081b8>
+  pre_fork: <function pre_fork at 0x7efea9a082a8>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  sendfile: None
+  reuse_port: False
+  worker_tmp_dir: None
+  group: 1019
+  umask: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  workers: 3
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  proc_name: None
+  pre_exec: <function pre_exec at 0x7efea9a08758>
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7efea9a08c80>
+  logconfig: None
+  logconfig_dict: {}
+  config: None
+  pidfile: None
+  check_config: False
+  statsd_prefix: 
+  on_reload: <function on_reload at 0x7efea9a080c8>
+  reload_extra_files: []
+  accesslog: None
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7efea9a08848>
+  post_request: <function post_request at 0x7efea9a088c0>
+  user: 1018
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7efea9a08578>
+  paste: None
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7efea99f8f50>
+  post_worker_init: <function post_worker_init at 0x7efea9a08488>
+  worker_abort: <function worker_abort at 0x7efea9a08668>
+  child_exit: <function child_exit at 0x7efea9a089b0>
+  worker_exit: <function worker_exit at 0x7efea9a08aa0>
+  default_proc_name: deployment_tutorial.wsgi:application
+  loglevel: debug
+  syslog: False
+  syslog_prefix: None
+  chdir: /home/mohitgupta/Tutorials/deployment_tutorial
+  daemon: False
+  syslog_addr: udp://localhost:514
+  ciphers: TLSv1
+  bind: ['127.0.0.1:8000']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7efea9a08b90>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2019-03-11 07:42:17 +0000] [3859] [INFO] Starting gunicorn 19.9.0
+[2019-03-11 07:42:17 +0000] [3859] [DEBUG] Arbiter booted
+[2019-03-11 07:42:17 +0000] [3859] [INFO] Listening at: http://127.0.0.1:8000 (3859)
+[2019-03-11 07:42:17 +0000] [3859] [INFO] Using worker: sync
+[2019-03-11 07:42:17 +0000] [3879] [INFO] Booting worker with pid: 3879
+[2019-03-11 07:42:17 +0000] [3881] [INFO] Booting worker with pid: 3881
+[2019-03-11 07:42:17 +0000] [3882] [INFO] Booting worker with pid: 3882
+[2019-03-11 07:42:17 +0000] [3859] [DEBUG] 3 workers
